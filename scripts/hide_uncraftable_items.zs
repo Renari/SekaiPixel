@@ -1,8 +1,4 @@
-# mods.jei.JEI.hide(<block or item you want to hide>);
-
-function hide (item) {
-  mods.jei.JEI.hide(item);
-}
+import mods.jei.JEI.hide;
 
 hide(<enderio:item_travel_staff>);
 hide(<enderio:item_rod_of_return>);
