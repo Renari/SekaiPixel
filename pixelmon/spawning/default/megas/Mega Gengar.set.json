@@ -1,0 +1,26 @@
+{
+	"id": "Mega Gengar",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Gengar"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"spawnSpecificBossRate": 1,
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"taigas",
+					"nether"
+				]
+			},
+			"interval": "megaBoss",
+			"typeID": "pokemon",
+			"rarity": 3.0
+		}
+	]
+}

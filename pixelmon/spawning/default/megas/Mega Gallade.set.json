@@ -1,0 +1,23 @@
+{
+	"id": "Mega Gallade",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Gallade"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"spawnSpecificBossRate": 1,
+			"condition": {
+				"stringBiomes": [
+					"birches",
+					"mountainous"
+				]
+			},
+			"interval": "megaBoss",
+			"typeID": "pokemon",
+			"rarity": 3.0
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "Mega Charizard",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Charizard"
+			},
+			"stringLocationTypes": [
+				"Air"
+			],
+			"spawnSpecificBossRate": 1,
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"weathers": [
+					"CLEAR"
+				],
+				"stringBiomes": [
+					"mountainous",
+					"mesas"
+				]
+			},
+			"interval": "megaBoss",
+			"typeID": "pokemon",
+			"rarity": 2.0
+		}
+	]
+}

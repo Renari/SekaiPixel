@@ -1,0 +1,22 @@
+{
+	"id": "Mega Tyranitar",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Tyranitar"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"spawnSpecificBossRate": 1,
+			"condition": {
+				"stringBiomes": [
+					"mountainous"
+				]
+			},
+			"interval": "megaBoss",
+			"typeID": "pokemon",
+			"rarity": 3.0
+		}
+	]
+}

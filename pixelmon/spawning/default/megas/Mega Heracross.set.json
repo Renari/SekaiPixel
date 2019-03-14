@@ -1,0 +1,22 @@
+{
+	"id": "Mega Heracross",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Heracross"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"spawnSpecificBossRate": 1,
+			"condition": {
+				"stringBiomes": [
+					"all forests"
+				]
+			},
+			"interval": "megaBoss",
+			"typeID": "pokemon",
+			"rarity": 3.0
+		}
+	]
+}

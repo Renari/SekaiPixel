@@ -1,0 +1,22 @@
+{
+	"id": "Mega Medicham",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Medicham"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"spawnSpecificBossRate": 1,
+			"condition": {
+				"stringBiomes": [
+					"mountainous forests"
+				]
+			},
+			"interval": "megaBoss",
+			"typeID": "pokemon",
+			"rarity": 3.0
+		}
+	]
+}

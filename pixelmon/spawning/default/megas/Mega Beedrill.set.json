@@ -1,0 +1,25 @@
+{
+	"id": "Mega Beedrill",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Beedrill"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"spawnSpecificBossRate": 1,
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"all forests"
+				]
+			},
+			"interval": "megaBoss",
+			"typeID": "pokemon",
+			"rarity": 3.0
+		}
+	]
+}

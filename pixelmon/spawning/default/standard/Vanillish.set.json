@@ -1,0 +1,33 @@
+{
+	"id": "Vanillish",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Vanillish"
+			},
+			"stringLocationTypes": [
+				"Land",
+				"Sweet Scent"
+			],
+			"minLevel": 36,
+			"maxLevel": 46,
+			"typeID": "pokemon",
+			"heldItems": [
+                {
+                    "itemID": "pixelmon:never_melt_ice",
+                    "percentChance": 5
+                }
+            ],
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"mutated_ice_flats",
+					"freezing mountains"
+				]
+			},
+			"rarity": 45.0
+		}
+	]
+}

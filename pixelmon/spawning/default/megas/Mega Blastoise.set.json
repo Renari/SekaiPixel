@@ -1,0 +1,25 @@
+{
+	"id": "Mega Blastoise",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Blastoise"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"spawnSpecificBossRate": 1,
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"oceanic"
+				]
+			},
+			"interval": "megaBoss",
+			"typeID": "pokemon",
+			"rarity": 2.0
+		}
+	]
+}

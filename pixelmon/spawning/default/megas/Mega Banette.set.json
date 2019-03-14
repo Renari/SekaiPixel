@@ -1,0 +1,26 @@
+{
+	"id": "Mega Banette",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Banette"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"spawnSpecificBossRate": 1,
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"plains",
+					"nether"
+				]
+			},
+			"interval": "megaBoss",
+			"typeID": "pokemon",
+			"rarity": 3.0
+		}
+	]
+}

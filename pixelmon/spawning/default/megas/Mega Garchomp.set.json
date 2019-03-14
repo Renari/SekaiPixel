@@ -1,0 +1,25 @@
+{
+	"id": "Mega Garchomp",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Garchomp"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"spawnSpecificBossRate": 1,
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"arid"
+				]
+			},
+			"interval": "megaBoss",
+			"typeID": "pokemon",
+			"rarity": 3.0
+		}
+	]
+}

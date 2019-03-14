@@ -1,0 +1,22 @@
+{
+	"id": "Mega Slowbro",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Slowbro"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"spawnSpecificBossRate": 1,
+			"condition": {
+				"stringBiomes": [
+					"beaches"
+				]
+			},
+			"interval": "megaBoss",
+			"typeID": "pokemon",
+			"rarity": 3.0
+		}
+	]
+}

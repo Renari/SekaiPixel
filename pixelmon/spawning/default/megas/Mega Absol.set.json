@@ -1,0 +1,26 @@
+{
+	"id": "Mega Absol",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Absol"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"spawnSpecificBossRate": 1,
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"mountainous",
+					"end"
+				]
+			},
+			"interval": "megaBoss",
+			"typeID": "pokemon",
+			"rarity": 3.0
+		}
+	]
+}
