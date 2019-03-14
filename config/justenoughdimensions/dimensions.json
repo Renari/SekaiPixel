@@ -1,0 +1,71 @@
+{
+  "config_version": {
+    "id": "__default",
+    "version": 0
+  },
+  "dimensions": [
+    {
+      "dim": 2,
+      "dimensiontype": {
+        "id": 2,
+        "name": "Pixelmon Overworld",
+        "require_exact_match": true,
+        "suffix": "_dim2",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED"
+      },
+      "worldinfo_onetime": {
+        "generatorName": "BIOMESOP",
+        "generatorOptions": "{\"useDungeons\":false,\"useStrongholds\":false,\"useMineShafts\":false,\"useTemples\":false,\"useMonuments\":false}",
+        "LevelName": "Pixelmon Overworld",
+        "GameRules": {
+          "doMobSpawning": "false"
+        },
+        "Difficulty": 0,
+        "DifficultyLocked": 1
+      }
+    },
+    {
+      "dim": 3,
+      "dimensiontype": {
+        "id": 3,
+        "name": "Pixelmon Nether",
+        "require_exact_match": true,
+        "suffix": "_dim3",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderHellJED"
+      },
+      "worldinfo_onetime": {
+        "generatorName": "BIOMESOP",
+        "generatorOptions": "{\"useDungeons\":false,\"useStrongholds\":false,\"useMineShafts\":false,\"useTemples\":false,\"useMonuments\":false}",
+        "LevelName": "Pixelmon Nether",
+        "GameRules": {
+          "doMobSpawning": "false"
+        },
+        "Difficulty": 0,
+        "DifficultyLocked": 1
+      }
+    },
+    {
+      "dim": 4,
+      "dimensiontype": {
+        "id": 4,
+        "name": "Pixelmon End",
+        "require_exact_match": true,
+        "suffix": "_dim4",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderEndJED"
+      },
+      "worldinfo_onetime": {
+        "generatorName": "BIOMESOP",
+        "generatorOptions": "{\"useDungeons\":false,\"useStrongholds\":false,\"useMineShafts\":false,\"useTemples\":false,\"useMonuments\":false}",
+        "LevelName": "Pixelmon End",
+        "GameRules": {
+          "doMobSpawning": "false"
+        },
+        "Difficulty": 0,
+        "DifficultyLocked": 1
+      }
+    }
+  ]
+}
