@@ -53,13 +53,8 @@
 		"doGeneratedFramesDrop": true
 	},
 	"activation": {
-		"canBeActivatedByFire": false,
-		"activators": [
-			{
-				"registryName": "pixelmon:level_ball",
-				"meta": 32767
-			}
-		],
+		"canBeActivatedByFire": true,
+		"activators": [],
 		"activatorConsumeBehavior": "CONSUME",
 		"spawnFireBeforeActivating": false,
 		"activationSounds": [

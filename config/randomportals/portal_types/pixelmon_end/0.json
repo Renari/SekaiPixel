@@ -56,7 +56,7 @@
 		"canBeActivatedByFire": false,
 		"activators": [
 			{
-				"registryName": "pixelmon:moon_ball",
+				"registryName": "minecraft:chorus_fruit_popped",
 				"meta": 32767
 			}
 		],
