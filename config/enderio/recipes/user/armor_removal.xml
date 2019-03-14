@@ -25,6 +25,6 @@
   <recipe name="Ender Bow" disabled="true" />
 
   <!-- disabled because no longer useful -->
-  <recipe name="End Steel Boots" disabled="true" />
   <recipe name="Glider Wing" disabled="true" />
+  <recipe name="Glider Wings" disabled="true" />
 </enderio:recipes>
