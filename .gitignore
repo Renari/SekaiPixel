@@ -1,3 +1,7 @@
+config/forge.cfg
+config/journeymap_ModInfo.cfg
+config/jei/worldSettings.cfg
+config/splash.properties
 discordsuite/
 journeymap/journeymap.log
 logs/
@@ -16,14 +20,7 @@ crafttweaker.log
 icon.png
 options.txt
 pixel.dat
+pixelc.dat
 servers.dat
 usercache.json
 usernamecache.json
-
-config/forge\.cfg
-
-config/jei/worldSettings\.cfg
-
-config/journeymap_ModInfo\.cfg
-
-config/splash\.properties
