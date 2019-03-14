@@ -47,17 +47,17 @@ General {
     # Allow the anvil to replace finished items with starting item from player's inventory without manual placing.
     allowAnvilAutoreloading=false
     # Allow player to throw Poke Balls from hotbar. If false, Poke Balls can only be thrown in battles.
-    allowCaptureOutsideBattle=true
+    allowCaptureOutsideBattle=false
     # Allow Pay Day to award PokéDollars when used.
     allowPayDayMoney=true
     # Allow players to plant Apricorns and Berries in the ground.
     allowPlanting=true
     # Server-side, whether players can use Pokémon editors. Client-side, whether other players can use a Pokémon editor on the player with the setting.
-    allowPokemonEditors=true
+    allowPokemonEditors=false
     # Allow the player to nickname Pokémon (not a server-wide setting, just a client setting).
     allowPokemonNicknames=true
     # Determines if player vs. player battles give Pokémon experience. No EXP gain in PvP when false.
-    allowPvPExperience=true
+    allowPvPExperience=false
     # pixelmon.config.allowRandomPokemonToBeLegendary.comment
     allowRandomPokemonToBeLegendary=true
     # Allow players to ride Pokémon. If false, no Pokémon can be ridden (server-side option).
@@ -67,7 +67,7 @@ General {
     # Determines if player vs. Trainer battles give Pokémon experience. No EXP gain in Trainer when false.
     allowTrainerExperience=true
     # Allow creepers, skeletons, etc. to spawn in the world. DANGER - can kill you while battling.
-    allowVanillaMobs=false
+    allowVanillaMobs=true
     # Whether or not players will automatically have a Mega ring.
     alwaysHaveMegaRing=false
     # Award photos to players who defeat wild Pokémon.
@@ -93,7 +93,7 @@ General {
     # If players party and computer are forcefully saved upon every world save (If false, you should be saving data via /saveall, or risk data loss)
     dataSaveOnWorldSave=true
     # Whether or not the "Drop All" button in the Pokémon drops screen will delete the items or drop them on the ground.
-    deleteUnwantedDrops=false
+    deleteUnwantedDrops=true
     # The minimum number of blocks away from the nearest player a Pokémon can be when despawned.
     despawnRadius=80
     # When mounted, enables steering the Pokémon by looking.
@@ -119,7 +119,7 @@ General {
     # Allow each player to take multiple photos of the same Pokémon.
     multiplePhotosOfSamePokemon=true
     # Requires flying and water Pokémon mounts to have HM moves Fly or Surf (respectively) to be able to ride them.
-    needHMToRide=false
+    needHMToRide=true
     # Chance of the Pickup Ability picking up an item after a battle (1/rate). 0 disables this.
     pickupRate=10
     # Allows wild Pokémon to drop items like feathers, etc. on death.
@@ -159,11 +159,11 @@ General {
     # Load external configuration files used for battle rules from the "pixelmon/rules" folder. If set to true and the "pixelmon/rules" folder does not exist, Pixelmon will create the folder and dump the existing files there.
     useExternalJSONFilesRules=false
     # Load external configuration files used for spawning from the "pixelmon/spawning" folder. If set to true and the "pixelmon/spawning" folder does not exist, Pixelmon will create the folder and dump the existing files there.
-    useExternalJSONFilesSpawning=false
+    useExternalJSONFilesSpawning=true
     # Load external configuration files used for stats from the "pixelmon/stats" folder. If set to true and the "pixelmon/stats" folder does not exist, Pixelmon will create the folder and dump the existing files there.
     useExternalJSONFilesStats=false
     # Load external configuration files used for structures from the "pixelmon/structures" folder. If set to true and the "pixelmon/structures" folder does not exist, Pixelmon will create the folder and dump the existing files there.
-    useExternalJSONFilesStructures=false
+    useExternalJSONFilesStructures=true
     # Lets your world follow real world time or not (uses the server's system clock).
     useSystemTimeForWorldTime=false
     # Saves Pixelmon entities to file when world saves (greatly increases save file size and save time if true). Required for the morph mod.
@@ -205,13 +205,13 @@ PixelUtilities {
         notConfigured
     ]
     # Enable/Disable Legendaries from being added to the event Poke Gift.
-    eventHasLegendaries=false
+    eventHasLegendaries=true
     # Each Pokémon has a 1/10 chance of being a Shiny.
-    eventHasShinies=false
+    eventHasShinies=true
     # Sets the maximum amount of Pokémon that are in spawned Poke Gifts.
     eventMaxPokemon=1
     # Should an event Poke Gift spawn?
-    eventPokeGiftLoad=false
+    eventPokeGiftLoad=true
     # The rate of Shiny Pokémon appearing in a Poke Gift (1/x).
     eventShinyRate=10
     # Define a custom date for Poke Gift events (day then month).
@@ -277,7 +277,7 @@ Spawning {
     # The rate of boss Pokémon in the wild (1/x) not including mega bosses.
     bossRate=256
     # Chance that a mega boss spawn attempt will succeed (0-1)
-    bossSpawnChance=0.30000001192092896
+    bossSpawnChance=0.3
     # Average number of ticks before spawning a boss Pokémon
     bossSpawnTicks=10000
     # Forces wild Pokémon to despawn after a battle.
@@ -297,7 +297,7 @@ Spawning {
     # Whether or not Pixelmon should modify Minecraft loot tables.
     injectIntoLootTables=true
     # Chance that a Legendary spawn attempt will succeed (0-1).
-    legendarySpawnChance=0.30000001192092896
+    legendarySpawnChance=0.3
     # Average number of ticks before an attempt at Legendary spawning will be made (modified by spawn chance).
     legendarySpawnTicks=25000
     # Which types of loot, such as "simple_dungeon", that Pixelmon should not modify.
@@ -313,7 +313,7 @@ Spawning {
     # The minimum distance from the player that entities may spawn. The lower this is, the closer entities will spawn to players.
     minimumDistanceFromCentre=18
     # Replaces Minecraft's villagers with Pixelmon NPCs.
-    replaceMCVillagers=true
+    replaceMCVillagers=false
     # Shiny calculation uses 1/(Shiny rate) to get odds of becoming Shiny.
     shinySpawnRate=4096
     # The number of spawn passes made per minute. Decrease for better performance.
@@ -329,7 +329,7 @@ Spawning {
     # Which folder to use under ./pixelmon/spawning/ for spawn sets.
     spawnSetFolder=default
     # A multiplier that speeds up legendary and mega boss spawning based on player count. ticks = spawnTicks / (1 + (number of players - 1) * spawnTicksPlayerMultiplier)
-    spawnTicksPlayerMultiplier=0.009999999776482582
+    spawnTicksPlayerMultiplier=0.01
     # Whether End Cities should be generated in new Ultra Space chunks.
     spawnUltraSpaceEndCities=true
     # Whether more Pokéloot chests should be generated in new Ultra Space chunks.
@@ -351,7 +351,7 @@ Spawning {
     # Modifies the rarity of shiny Pokemon in the Ultra Space Dimension (shinyRate * ultraSpaceShinyModifier).
     ultraSpaceShinyModifier=0.5
     # Whether or not to use the file under config/pixelmon for the Better Spawner
-    useBetterSpawnerConfig=false
+    useBetterSpawnerConfig=true
     # If true, Pokémon will spawn with the most recent moves in their level-up movepools. If false, Pokémon will spawn with random moves from their level-up movepools.
     useRecentLevelMoves=false
     # The vertical radius of the areas randomly selected near the player to do spawning in. Lower for better performance but less reliable spawning. Larger than horizontal to better match player behavior.
@@ -371,5 +371,5 @@ Storage {
     # The interval in seconds that the async saver will save all queued data to disk.
     asyncInterval=60
     # Activates off-main thread saving of party and computer data. (server only)
-    useAsyncSaving=false
+    useAsyncSaving=true
 }
