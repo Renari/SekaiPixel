@@ -107,7 +107,7 @@ General {
     # What will happen if a battle is force-ended without a proper conclusion. 0: A winner is determined based on the number of remaining Pokémon (with % HP as a tiebreaker). 1: The battle is considered a draw. 2: The battle is considered abnormally ended.
     forceEndBattleResult=0
     # Adjusts the variation in size caused by growth (0-2). 1 is normal.
-    growthScaleModifier=1.0
+    growthScaleModifier=1
     # Sets The number of times a Azelf, Mesprit and Uxie can enchant a ruby.
     lakeTrioMaxEnchants=3
     # The maximum level that a Pokémon can be.
@@ -182,7 +182,7 @@ Graphics {
     # The range (in blocks) at which battle effects should be displayed to players if they are not in the battle.
     rangeToDisplayAttackAnimations=40
     # Multiplier of the 64 distance usually used for rendering.
-    renderDistanceWeight=2.0
+    renderDistanceWeight=2
     # Whether or not wild Pokémon should show their level above their head.
     renderWildLevels=true
     # Increases size of Pokémon models in-game by 30%.
