@@ -1,0 +1,99 @@
+{
+	"frame": {
+		"type": "VERTICAL",
+		"size": {
+			"lateral": {
+				"minWidth": 3,
+				"maxWidth": 30,
+				"minHeight": 3,
+				"maxHeight": 30
+			},
+			"verticalX": {
+				"minWidth": 5,
+				"maxWidth": 5,
+				"minHeight": 5,
+				"maxHeight": 5
+			},
+			"verticalZ": {
+				"minWidth": 5,
+				"maxWidth": 5,
+				"minHeight": 5,
+				"maxHeight": 5
+			}
+		},
+		"blocks": [
+			{
+				"registryName": "minecraft:concrete",
+				"meta": 14,
+				"minimumAmount": 5
+			},
+			{
+				"registryName": "minecraft:concrete",
+				"meta": 15,
+				"minimumAmount": 2
+			},
+			{
+				"registryName": "minecraft:concrete",
+				"meta": 0,
+				"minimumAmount": 5
+			}
+		],
+		"requiredCorner": "ANY",
+		"cornerBlocksContributeToMinimumAmount": false,
+		"doGeneratedFramesDrop": true
+	},
+	"activation": {
+		"canBeActivatedByFire": false,
+		"activators": [
+			{
+				"registryName": "pixelmon:poke_ball",
+				"meta": 32767
+			}
+		],
+		"activatorConsumeBehavior": "CONSUME",
+		"spawnFireBeforeActivating": false,
+		"activationSounds": [
+			"pixelmon:pixelmon.block.pokeballcapture"
+		]
+	},
+	"color": {
+		"colors": [
+			"GRAY"
+		],
+		"dyeBehavior": "ONLY_DEFINED_COLORS"
+	},
+	"destination": {
+		"dimensionID": 2,
+		"teleportToPortal": true,
+		"oneWay": false,
+		"generatePortalIfNotFound": true,
+		"portalGenerationBehavior": "CLONE",
+		"generatedFrameType": "SAME",
+		"generatedFrameSize": {
+			"lateral": {
+				"minWidth": 5,
+				"maxWidth": 5,
+				"minHeight": 5,
+				"maxHeight": 5
+			},
+			"verticalX": {
+				"minWidth": 5,
+				"maxWidth": 5,
+				"minHeight": 5,
+				"maxHeight": 5
+			},
+			"verticalZ": {
+				"minWidth": 5,
+				"maxWidth": 5,
+				"minHeight": 5,
+				"maxHeight": 5
+			}
+		}
+	},
+	"teleportationDelay": {
+		"lateral": 0,
+		"verticalX": 0,
+		"verticalZ": 0
+	},
+	"decorative": false
+}
