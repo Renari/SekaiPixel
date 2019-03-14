@@ -4,6 +4,7 @@ config/journeymap_ModInfo.cfg
 config/jei/worldSettings.cfg
 config/splash.properties
 discordsuite/
+journeymap/data/
 journeymap/journeymap.log
 logs/
 mods/
