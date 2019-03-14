@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+  <recipe name="Staff Of Travelling" disabled="true" />
+  <recipe name="Rod of Return" disabled="true" />
+  <recipe name="Electromagnet" disabled="true" />
+  <recipe name="Dark Steel Helmet" disabled="true" />
+  <recipe name="Dark Steel Chestplate" disabled="true" />
+  <recipe name="Dark Steel Leggings" disabled="true" />
+  <recipe name="Dark Steel Boots" disabled="true" />
+  <recipe name="End Steel Helmet" disabled="true" />
+  <recipe name="End Steel Chestplate" disabled="true" />
+  <recipe name="End Steel Leggings" disabled="true" />
+  <recipe name="End Steel Boots" disabled="true" />
+  <recipe name="Dark Shears" disabled="true" />
+  <recipe name="Dark Treetap" disabled="false" />
+  <recipe name="The Ender" disabled="true" />
+  <recipe name="End Steel Sword" disabled="true" />
+  <recipe name="Dark Pickaxe" disabled="true" />
+  <recipe name="Dark Axe" disabled="true" />
+  <recipe name="Dark Crook" disabled="true" />
+  <recipe name="Dark Hand" disabled="true" />
+  <recipe name="End Pickaxe" disabled="true" />
+  <recipe name="End Axe" disabled="true" />
+  <recipe name="Dark Bow" disabled="true" />
+  <recipe name="Ender Bow" disabled="true" />
+
+  <!-- disabled because no longer useful -->
+  <recipe name="End Steel Boots" disabled="true" />
+  <recipe name="Glider Wing" disabled="true" />
+</enderio:recipes>
