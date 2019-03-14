@@ -12,7 +12,7 @@
   <recipe name="End Steel Leggings" disabled="true" />
   <recipe name="End Steel Boots" disabled="true" />
   <recipe name="Dark Shears" disabled="true" />
-  <recipe name="Dark Treetap" disabled="false" />
+  <recipe name="Dark Treetap" disabled="true" />
   <recipe name="The Ender" disabled="true" />
   <recipe name="End Steel Sword" disabled="true" />
   <recipe name="Dark Pickaxe" disabled="true" />
