@@ -1,0 +1,9 @@
+{
+	"name": "Pokemon Master Guide",
+	"landing_text": "Pokémon Master (Japanese: ポケモンマスター Pokémon Master) is a title in the Pokémon world. It is the goal of many Pokémon Trainers to become a Pokémon Master. However, exactly what this position is and how one attains it is vague and never fully explained.",
+	"version": 1,
+	"show_progress": false,
+	"book_texture": "patchouli:textures/gui/book_purple.png",
+	"index_icon": "pixelmon:master_ball",
+	"model": "patchouli:book_purple"
+}

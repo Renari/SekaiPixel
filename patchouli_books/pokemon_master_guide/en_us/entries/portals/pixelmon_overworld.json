@@ -1,0 +1,31 @@
+{
+  "name": "Pixelmon Overworld",
+  "icon": "randomportals:gray_vertical_nether_portal",
+  "category": "portals",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "To travel to the Pixelmon dimension you'll need to create the Pixelmon portal pictured to the right. To activate the portal right click it with a pokeball.",
+      "title": "Pixelmon Portal"
+    },
+    {
+        "type": "multiblock",
+        "name": "Portal",
+        "multiblock": {
+          "pattern": [
+            ["_", "R", "R", "R", "_"],
+            ["R", " ", " ", " ", "R"],
+            ["B", " ", " ", " ", "B"],
+            ["W", " ", "0", " ", "W"],
+            ["_", "W", "W", "W", "_"]
+          ],
+          "mapping": {
+            "R": "minecraft:concrete[color=red]",
+            "W": "minecraft:concrete",
+            "B": "minecraft:concrete[color=black]"
+          }
+        }
+    }
+  ]
+}

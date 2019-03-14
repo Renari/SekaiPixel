@@ -1,0 +1,30 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": true,
+  "bookData": {
+    "patchouli:so_you_want_to_be_a_pokemon_master": {
+      "viewedEntries": [
+        "patchouli:portals/pixelmon_overworld"
+      ],
+      "bookmarks": [],
+      "history": [
+        "patchouli:portals/pixelmon_overworld"
+      ],
+      "completedManualQuests": []
+    },
+    "patchouli:pokemon_master_guide": {
+      "viewedEntries": [
+        "patchouli:portals/pixelmon_overworld",
+        "patchouli:portals/pixelmon_nether",
+        "patchouli:portals/pixelmon_end"
+      ],
+      "bookmarks": [],
+      "history": [
+        "patchouli:portals/pixelmon_end",
+        "patchouli:portals/pixelmon_nether",
+        "patchouli:portals/pixelmon_overworld"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

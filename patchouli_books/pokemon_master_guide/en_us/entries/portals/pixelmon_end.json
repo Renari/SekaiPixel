@@ -1,0 +1,34 @@
+{
+  "name": "Pixelmon End",
+  "icon": "randomportals:light_blue_vertical_nether_portal",
+  "category": "portals",
+  "read_by_default": true,
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "To travel to the Pixelmon end you'll need to create the portal pictured to the right. To activate the portal right click it with a popped chorus fruit.",
+      "title": "Pixelmon End Portal"
+    },
+    {
+        "type": "multiblock",
+        "name": "Portal",
+        "multiblock": {
+          "pattern": [
+            ["_", "U", "Y", "G", "_"],
+            ["U", " ", " ", " ", "G"],
+            ["B", " ", " ", " ", "B"],
+            ["W", " ", "0", " ", "W"],
+            ["_", "W", "W", "W", "_"]
+          ],
+          "mapping": {
+            "U": "minecraft:concrete[color=light_blue]",
+            "G": "minecraft:concrete[color=gray]",
+            "Y": "minecraft:concrete[color=yellow]",
+            "W": "minecraft:concrete",
+            "B": "minecraft:concrete[color=black]"
+          }
+        }
+    }
+  ]
+}

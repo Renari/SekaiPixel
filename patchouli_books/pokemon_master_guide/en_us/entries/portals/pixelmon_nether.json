@@ -1,0 +1,34 @@
+{
+  "name": "Pixelmon Nether",
+  "icon": "randomportals:orange_vertical_nether_portal",
+  "category": "portals",
+  "read_by_default": true,
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "To travel to the Pixelmon nether you'll need to create the portal pictured to the right. To activate the portal right click it with a flint and steel.",
+      "title": "Pixelmon Nether Portal"
+    },
+    {
+        "type": "multiblock",
+        "name": "Portal",
+        "multiblock": {
+          "pattern": [
+            ["_", "R", "G", "R", "_"],
+            ["O", " ", " ", " ", "O"],
+            ["B", " ", " ", " ", "B"],
+            ["W", " ", "0", " ", "W"],
+            ["_", "W", "W", "W", "_"]
+          ],
+          "mapping": {
+            "R": "minecraft:concrete[color=red]",
+            "G": "minecraft:concrete[color=gray]",
+            "O": "minecraft:concrete[color=orange]",
+            "W": "minecraft:concrete",
+            "B": "minecraft:concrete[color=black]"
+          }
+        }
+    }
+  ]
+}
