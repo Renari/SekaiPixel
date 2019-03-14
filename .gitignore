@@ -25,3 +25,5 @@ config/forge\.cfg
 config/jei/worldSettings\.cfg
 
 config/journeymap_ModInfo\.cfg
+
+config/splash\.properties
