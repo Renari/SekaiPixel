@@ -23,3 +23,5 @@ usernamecache.json
 config/forge\.cfg
 
 config/jei/worldSettings\.cfg
+
+config/journeymap_ModInfo\.cfg
