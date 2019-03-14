@@ -19,3 +19,5 @@ pixel.dat
 servers.dat
 usercache.json
 usernamecache.json
+
+config/forge\.cfg
