@@ -1483,5 +1483,35 @@
     "1pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
     "2pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
     "3pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}"
+  },
+  {
+    "name": "appliedenergistics2:quartz_ore",
+    "meta": 0,
+    "length": 1,
+    "name0": "appliedenergistics2:material",
+    "meta0": 0,
+    "0chance0": 149.3,
+    "1chance0": 198.72499,
+    "2chance0": 265.275,
+    "3chance0": 332.725,
+    "0pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
+    "1pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}",
+    "2pair0": "{\n  \"left\": 1,\n  \"right\": 6\n}",
+    "3pair0": "{\n  \"left\": 1,\n  \"right\": 8\n}"
+  },
+  {
+    "name": "appliedenergistics2:charged_quartz_ore",
+    "meta": 0,
+    "length": 1,
+    "name0": "appliedenergistics2:material",
+    "meta0": 1,
+    "0chance0": 150.4,
+    "1chance0": 200.05,
+    "2chance0": 260.525,
+    "3chance0": 331.05,
+    "0pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
+    "1pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}",
+    "2pair0": "{\n  \"left\": 1,\n  \"right\": 6\n}",
+    "3pair0": "{\n  \"left\": 1,\n  \"right\": 8\n}"
   }
 ]
