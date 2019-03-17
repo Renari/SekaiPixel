@@ -52,6 +52,7 @@
   "ctgui": "1.0.0",
   "ae2wtlib": "1.0.6",
   "OpenEye": "0.8",
+  "jee": "1.0.6",
   "supersoundmuffler": "1.0.2.10",
   "jei": "4.15.0.269",
   "chunkpregenerator": "2.1",
