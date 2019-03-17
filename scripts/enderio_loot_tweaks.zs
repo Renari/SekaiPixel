@@ -16,3 +16,7 @@ LootTables.getTableUnchecked("enderio:chests/end_city_treasure").getPool("Ender 
 LootTables.getTableUnchecked("enderio:chests/woodland_mansion").getPool("Ender IO").removeEntry("enderio:item_dark_steel_bow:0");
 
 LootTables.getTableUnchecked("enderio:chests/woodland_mansion").getPool("Ender IO").removeEntry("enderio:item_dark_steel_axe:0");
+
+LootTables.getTableUnchecked("enderio:chests/desert_pyramid").getPool("Ender IO").removeEntry("enderio:item_travel_staff:0");
+LootTables.getTableUnchecked("enderio:chests/jungle_temple").getPool("Ender IO").removeEntry("enderio:item_travel_staff:0");
+LootTables.getTableUnchecked("enderio:chests/woodland_mansion").getPool("Ender IO").removeEntry("enderio:item_travel_staff:0");
