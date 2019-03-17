@@ -33,3 +33,7 @@ hide(<enderio:block_cap_bank:0>);
 hide(<enderio:block_buffer:3>);
 hide(<theoneprobe:creativeprobe>);
 hide(<netherendingores:creative_tab>);
+
+# unused flours
+hide(<enderio:item_material:21>);
+hide(<appliedenergistics2:material:4>);
