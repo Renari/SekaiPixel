@@ -112,7 +112,7 @@ var toHide as IItemStack[] = [
 
   // ae2 slightly grown seeds
   <appliedenergistics2:crystal_seed>.withTag({progress: 200}),
-  <appliedenergistics2:crystal_seed>.withTag({progress: 400})
+  <appliedenergistics2:crystal_seed>.withTag({progress: 400}),
   <appliedenergistics2:crystal_seed:600>.withTag({progress: 800}),
   <appliedenergistics2:crystal_seed:600>.withTag({progress: 1000}),
   <appliedenergistics2:crystal_seed:1200>.withTag({progress: 1400}),
