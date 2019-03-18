@@ -75,6 +75,7 @@
   "inventorytweaks": "1.64+dev.146.2180b27",
   "foamfixcore": "7.7.4",
   "hungerinpeace": "1.0.0",
+  "villagermarket": "1.0.1",
   "randomportals": "1.12.2-1.7.0.1",
   "crafttweaker": "4.1.15",
   "nutrition": "4.3.0",
