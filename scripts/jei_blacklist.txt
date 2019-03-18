@@ -92,19 +92,6 @@ var toHide as IItemStack[] = [
   <minecraft:portal>,
   <minecraft:end_gateway>,
 
-
-  // recurrent complex
-  <reccomplex:block_selector>,
-  <reccomplex:block_selector_floating>,
-  <reccomplex:inventory_generation_tag>,
-  <reccomplex:inventory_generation_component_tag>,
-  <reccomplex:artifact_generation_tag>,
-  <reccomplex:generic_space>,
-  <reccomplex:generic_solid>,
-  <reccomplex:spawn_script>,
-  <reccomplex:maze_generator>,
-  <reccomplex:weighted_command_block>,
-
   // evolved enderman soul vials aren't in the creative inventory
   <enderio:item_soul_vial:1>.withTag({entityId: "endermanevo:enderman_evolved"}),
   <enderio:item_soul_vial:1>.withTag({entityId: "endermanevo:frienderman"}),
@@ -151,41 +138,48 @@ var toHide as IItemStack[] = [
 hide(toHide);
 
 
-//Ender IO Soul Vial's and broken spawners
+// Ender IO Soul Vial's and broken spawners
 JEI.hide(<enderio:item_broken_spawner:*>);
 for soul in <enderio:item_soul_vial>.definition.getSubItems(<creativetab:enderio.mobs>) {
-    if (soul.hasTag) {
-        JEI.hide(soul);
-    }
+  if (soul.hasTag) {
+    JEI.hide(soul);
+  }
 }
 
+// recurrent complex
+for item in loadedMods["reccomplex"].items {
+  JEI.hide(item);
+}
 
 // JEI.hide all spawn eggs from the misc creative tab
 for egg in <minecraft:spawn_egg>.definition.getSubItems(<creativetab:misc>) {
-    JEI.hide(egg);
+  JEI.hide(egg);
 }
 
 // AE2 Facades
 val baseFacade = <appliedenergistics2:facade>.withTag({damage: 0, item: "minecraft:stone"});
 for facade in <appliedenergistics2:facade>.definition.subItems {
-    if (facade.hasTag && !(baseFacade.matchesExact(facade))) {
-        JEI.hide(facade);
-    }
+  if (facade.hasTag && !(baseFacade.matchesExact(facade))) {
+    JEI.hide(facade);
+  }
 }
 
 // Extra Cells fluid patterns
 hideFilledContainers(<extracells:pattern.fluid>);
 
+// buckets
+hideFilledContainers(<forge:bucketfilled>);
+
 function hideFilledContainers(container as IItemStack) {
-    for c in container.definition.subItems {
-        if (c.hasTag) {
-            JEI.hide(c);
-        }
+  for c in container.definition.subItems {
+    if (c.hasTag) {
+      JEI.hide(c);
     }
+  }
 }
 
 function hide(items as IItemStack[]) {
-    for item in items {
-        JEI.hide(item);
-    }
+  for item in items {
+    JEI.hide(item);
+  }
 }
