@@ -140,6 +140,9 @@ var toHide as IItemStack[] = [
   <jaopca:item_coinuranium>,
   <jaopca:item_cointin>,
 
+  // architecturecraft shapes
+  <architecturecraft:shape>,
+
   // items not used in any crafting
   <endermanevo:ender_flower>,
   <vanillafoodpantry:iron_stomach>,
@@ -180,9 +183,6 @@ function hideFilledContainers(container as IItemStack) {
         }
     }
 }
-
-// JEI.hide architecturecraft shapes
-JEI.hide(<architecturecraft:shape>);
 
 function hide(items as IItemStack[]) {
     for item in items {
