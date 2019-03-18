@@ -66,6 +66,7 @@
   "diethopper": "1.1",
   "journeymap": "1.12.2-5.5.4",
   "appliedenergistics2": "rv6-stable-6",
+  "nuclearcraft": "2.13e",
   "naturescompass": "1.5.1",
   "endertweaker": "1.1.4",
   "enderiointegrationticlate": "5.0.40",
