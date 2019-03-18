@@ -54,6 +54,7 @@
   "unloader": "1.2.0",
   "quarkoddities": "1",
   "ctgui": "1.0.0",
+  "extracells": "2.6.2",
   "ae2wtlib": "1.0.6",
   "OpenEye": "0.8",
   "jee": "1.0.6",
