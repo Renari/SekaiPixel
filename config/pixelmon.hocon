@@ -190,7 +190,7 @@ Graphics {
     # Display the currently selected Pokémon's attack target on the screen.
     showCurrentAttackTarget=true
     # Whether to show wild Pokémon names on their nameplates.
-    showWildNames=true
+    showWildNames=false
     # Set whether or not to switch to an external camera during battles.
     useBattleCamera=true
     # Use the SMD normal maps for shading Poke Balls.
