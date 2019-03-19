@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "To travel to the Pixelmon nether you'll need to create the portal pictured to the right. To activate the portal right click it with a flint and steel.",
+      "text": "To travel to the Pixelmon nether you'll need to create the portal pictured to the right. To activate the portal right click it with a flint and steel.$(br2)Material List:$(br)5x White Concrete$(br)2x Orange Concrete$(br)2x Red Concrete$(br)2x Black Concrete$(br)1x Gray Concrete",
       "title": "Pixelmon Nether Portal"
     },
     {

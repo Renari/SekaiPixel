@@ -56,7 +56,7 @@
 		"canBeActivatedByFire": false,
 		"activators": [
 			{
-				"registryName": "minecraft:chorus_fruit_popped",
+				"registryName": "biomesoplenty:crystal_shard",
 				"meta": 32767
 			}
 		],

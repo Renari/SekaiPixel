@@ -7,7 +7,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "To travel to the Pixelmon end you'll need to create the portal pictured to the right. To activate the portal right click it with a popped chorus fruit.",
+      "text": "To travel to the Pixelmon end you'll need to create the portal pictured to the right. To activate the portal right click it with a $(l)$(#800080)Celestial Crystal Shard$().$(br2)Material List:$(br)5x White Concrete$(br)2x Light Blue Concrete$(br)2x Gray Concrete$(br)2x Black Concrete$(br)1x Yellow Concrete",
       "title": "Pixelmon End Portal"
     },
     {

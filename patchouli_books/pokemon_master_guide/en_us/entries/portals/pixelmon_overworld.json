@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "To travel to the Pixelmon dimension you'll need to create the Pixelmon portal pictured to the right. To activate the portal right click it with a pokeball.",
+      "text": "To travel to the Pixelmon dimension you'll need to create the Pixelmon portal pictured to the right. To activate the portal right click it with a $(l)$(#FF0000)pokeball$().$(br2)Material List:$(br)5x White Concrete$(br)5x Red Concrete$(br)2x Black Concrete",
       "title": "Pixelmon Portal"
     },
     {
