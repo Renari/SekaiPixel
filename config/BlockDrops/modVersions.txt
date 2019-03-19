@@ -7,6 +7,7 @@
   "craftstudioapi": "1.0.0",
   "endercore": "1.12.2-0.5.45",
   "neat": "1.4-17",
+  "thaumicjei": "1.2.1",
   "reborncore": "3.13.6.424",
   "ctm": "MC1.12.2-0.3.3.22",
   "controlling": "3.0.6",
