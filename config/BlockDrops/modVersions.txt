@@ -74,6 +74,7 @@
   "ivtoolkit": "1.3.3-1.12",
   "bdlib": "1.14.3.12",
   "colytra": "1.1.0.4",
+  "tcinventoryscan": "2.0.10",
   "redstonepaste": "1.7.5",
   "mcp": "9.42",
   "diethopper": "1.1",
