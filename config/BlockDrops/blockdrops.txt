@@ -21073,50 +21073,5 @@
     "1pair502": "{\n  \"left\": 0,\n  \"right\": 1\n}",
     "2pair502": "{\n  \"left\": 0,\n  \"right\": 1\n}",
     "3pair502": "{\n  \"left\": 0,\n  \"right\": 1\n}"
-  },
-  {
-    "name": "arcanelamps:arcanecrystalore",
-    "meta": 0,
-    "length": 1,
-    "name0": "arcanelamps:arcanecrystal",
-    "meta0": 0,
-    "0chance0": 100.0,
-    "1chance0": 100.0,
-    "2chance0": 100.0,
-    "3chance0": 100.0,
-    "0pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
-    "1pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
-    "2pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
-    "3pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}"
-  },
-  {
-    "name": "arcanelamps:wumpaboxreforced",
-    "meta": 0,
-    "length": 1,
-    "name0": "arcanelamps:improvedwumpafruit",
-    "meta0": 0,
-    "0chance0": 100.0,
-    "1chance0": 100.0,
-    "2chance0": 100.0,
-    "3chance0": 100.0,
-    "0pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
-    "1pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
-    "2pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
-    "3pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}"
-  },
-  {
-    "name": "arcanelamps:wumpabox",
-    "meta": 0,
-    "length": 1,
-    "name0": "arcanelamps:wumpafruit",
-    "meta0": 0,
-    "0chance0": 100.0,
-    "1chance0": 100.0,
-    "2chance0": 100.0,
-    "3chance0": 100.0,
-    "0pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
-    "1pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
-    "2pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
-    "3pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}"
   }
 ]

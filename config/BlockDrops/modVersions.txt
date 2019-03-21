@@ -84,7 +84,6 @@
   "journeymap": "1.12.2-5.5.4",
   "thaumicperiphery": "0.3.0",
   "appliedenergistics2": "rv6-stable-6",
-  "arcanelamps": "1.7.2",
   "nuclearcraft": "2.13e",
   "naturescompass": "1.5.1",
   "endertweaker": "1.1.4",
