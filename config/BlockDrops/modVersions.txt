@@ -109,6 +109,7 @@
   "rockycore": "0.4.1",
   "theoneprobe": "1.4.28",
   "mousetweaks": "2.10",
+  "immersiveengineering": "0.12-89",
   "claybucket": "1.1",
   "baubles": "1.5.2",
   "applecore": "3.2.0",
