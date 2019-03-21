@@ -7,6 +7,7 @@ config/InvTweaks/InvTweaks.cfg
 config/journeymap_ModInfo.cfg
 config/jei/worldSettings.cfg
 config/splash.properties
+config/thaumicjei_itemstack_aspects.json
 discordsuite/
 dumps/
 journeymap/data/
