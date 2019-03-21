@@ -127,6 +127,7 @@
   "enderiobase": "5.0.40",
   "fastfurnace": "1.2.1",
   "appleskin": "1.0.9",
+  "worldstripper": "1.6.0-1.12.2",
   "enderioconduitsopencomputers": "5.0.40",
   "solcarrot": "1.12.2-1.6.2",
   "foamfix": "0.10.3-1.12.2",
