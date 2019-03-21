@@ -29,12 +29,11 @@ recipes.remove(<rustic:crop_stake>);
 recipes.remove(<rustic:iron_lattice> * 16);
 
 //#Add
-recipes.addShaped(<rustic:iron_lattice> * 16, [[null, <jaopca:item_stickiron>, null],[<jaopca:item_stickiron>, <jaopca:item_stickiron>, <jaopca:item_stickiron>], [null, <jaopca:item_stickiron>, null]]);
 recipes.addShaped(<rustic:crop_stake>, [[<ore:slabWood>], [<ore:slabWood>], [<ore:slabWood>]]);
 recipes.addShaped(<iceandfire:sapphire_block>, [[<iceandfire:sapphire_gem>, <iceandfire:sapphire_gem>, <iceandfire:sapphire_gem>],[<iceandfire:sapphire_gem>, <iceandfire:sapphire_gem>, <iceandfire:sapphire_gem>], [<iceandfire:sapphire_gem>, <iceandfire:sapphire_gem>, <iceandfire:sapphire_gem>]]);
 recipes.addShaped(<pixelmon:sapphire_block>, [[<pixelmon:sapphire>, <pixelmon:sapphire>, <pixelmon:sapphire>],[<pixelmon:sapphire>, <pixelmon:sapphire>, <pixelmon:sapphire>], [<pixelmon:sapphire>, <pixelmon:sapphire>, <pixelmon:sapphire>]]);
 recipes.addShaped(<biomesoplenty:gem_block:6>, [[<biomesoplenty:gem:6>, <biomesoplenty:gem:6>, <biomesoplenty:gem:6>],[<biomesoplenty:gem:6>, <biomesoplenty:gem:6>, <biomesoplenty:gem:6>], [<biomesoplenty:gem:6>, <biomesoplenty:gem:6>, <biomesoplenty:gem:6>]]);
-recipes.addShaped(<rustic:iron_lattice> * 16, [[null, <jaopca:item_stickiron>, null],[<jaopca:item_stickiron>, <jaopca:item_stickiron>, <jaopca:item_stickiron>], [null, <jaopca:item_stickiron>, null]]);
+recipes.addShaped(<rustic:iron_lattice> * 16, [[null, <immersiveengineering:material:1>, null],[<immersiveengineering:material:1>, <immersiveengineering:material:1>, <immersiveengineering:material:1>], [null, <immersiveengineering:material:1>, null]]);
 recipes.addShapeless(<rustic:painted_wood_black>, [<quark:stained_planks:15>]);
 recipes.addShapeless(<quark:stained_planks:15>, [<rustic:painted_wood_black>]);
 recipes.addShapeless(<rustic:painted_wood_red>, [<quark:stained_planks:14>]);
