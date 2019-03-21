@@ -1,0 +1,35 @@
+<ore:plateAluminum>.add(<pixelmon:aluminium_plate>);
+
+recipes.remove(<pixelmon:camera>);
+recipes.remove(<pixelmon:fossil_cleaner>);
+recipes.remove(<pixelmon:fossil_machine_base>);
+recipes.remove(<pixelmon:fossil_machine_top>);
+recipes.remove(<pixelmon:green_tank>);
+recipes.remove(<pixelmon:gym_sign>);
+recipes.remove(<pixelmon:healer>);
+recipes.remove(<pixelmon:movement_plate>);
+recipes.remove(<pixelmon:trade_holder_left>);
+recipes.remove(<pixelmon:trade_holder_right>);
+recipes.remove(<pixelmon:trade_monitor>);
+recipes.remove(<pixelmon:trade_panel>);
+recipes.remove(<pixelmon:stick_plate>);
+recipes.remove(<pixelmon:orange_tank>);
+recipes.remove(<pixelmon:item_finder>);
+recipes.remove(<pixelmon:pc>);
+
+recipes.addShaped(<pixelmon:item_finder>, [[<minecraft:diamond>, <minecraft:gold_ingot>, <minecraft:diamond>], [<minecraft:gold_ingot>, <minecraft:redstone>, <minecraft:gold_ingot>], [<ore:plateAluminum>, <minecraft:glass_pane>, <ore:plateAluminum>]]);
+recipes.addShaped(<pixelmon:orange_tank>, [[<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>], [<minecraft:gold_ingot>, <pixelmon:fossil_machine>, <minecraft:gold_ingot>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
+recipes.addShaped(<pixelmon:stick_plate>, [[<minecraft:soul_sand>, <minecraft:dye:4>, <minecraft:soul_sand>], [<minecraft:redstone>, <minecraft:redstone_lamp>, <minecraft:redstone>], [null, <ore:plateAluminum>, null]]);
+recipes.addShaped(<pixelmon:trade_panel>, [[<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>], [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>], [<ore:plateAluminum>, <minecraft:redstone>, <ore:plateAluminum>]]);
+recipes.addShaped(<pixelmon:trade_monitor>, [[<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>], [<ore:plateAluminum>, <minecraft:glass_pane>, <ore:plateAluminum>], [<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>]]);
+recipes.addShaped(<pixelmon:trade_holder_right>, [[<pixelmon:poke_ball>, <ore:plateAluminum>, <ore:plateAluminum>], [<ore:plateAluminum>, <ore:plateAluminum>, null]]);
+recipes.addShaped(<pixelmon:trade_holder_left>, [[<ore:plateAluminum>, <ore:plateAluminum>, <pixelmon:poke_ball>], [null, <ore:plateAluminum>, <ore:plateAluminum>]]);
+recipes.addShaped(<pixelmon:movement_plate>, [[null, <minecraft:dye:10>, null], [<minecraft:redstone>, <minecraft:redstone_lamp>, <minecraft:redstone>], [null, <ore:plateAluminum>, null]]);
+recipes.addShaped(<pixelmon:camera>, [[null, null, <quark:iron_button>], [<ore:plateAluminum>, <minecraft:glass_pane>, <ore:plateAluminum>], [<ore:plateAluminum>, <minecraft:redstone_torch>, <ore:plateAluminum>]]);
+recipes.addShaped(<pixelmon:fossil_cleaner>, [[<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>], [<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>], [<minecraft:redstone>, <minecraft:glass_pane>, <minecraft:redstone>]]);
+recipes.addShaped(<pixelmon:fossil_machine_base>, [[null, null, null], [<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>], [<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>]]);
+recipes.addShaped(<pixelmon:fossil_machine_top>, [[<ore:plateAluminum>, <minecraft:redstone>, <ore:plateAluminum>], [<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>]]);
+recipes.addShaped(<pixelmon:green_tank>, [[<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>], [<minecraft:emerald>, <pixelmon:fossil_machine>, <minecraft:emerald>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
+recipes.addShaped(<pixelmon:gym_sign>, [[null, <ore:plateAluminum>, null], [<ore:plateAluminum>, <minecraft:dye:1>, <ore:plateAluminum>]]);
+recipes.addShaped(<pixelmon:healer>, [[<ore:plateAluminum>, <minecraft:iron_ingot>, <ore:plateAluminum>], [<minecraft:iron_ingot>, <minecraft:diamond>, <minecraft:iron_ingot>], [<ore:plateAluminum>, <minecraft:iron_ingot>, <ore:plateAluminum>]]);
+recipes.addShaped(<pixelmon:pc>, [[<ore:plateAluminum>, <minecraft:glass_pane>, <ore:plateAluminum>], [<ore:plateAluminum>, <minecraft:redstone_lamp>, <ore:plateAluminum>], [<ore:plateAluminum>, <minecraft:redstone>, <ore:plateAluminum>]]);
