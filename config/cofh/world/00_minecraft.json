@@ -443,7 +443,12 @@
 					}
 				]
 			},
-			"dimension": "all"
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
 		}
 	}
 }
