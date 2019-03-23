@@ -69,3 +69,5 @@ recipes.addShapeless(<rustic:painted_wood_white>, [<quark:stained_planks>]);
 recipes.addShapeless(<pixelmon:sapphire>, [<iceandfire:sapphire_gem>]);
 recipes.addShapeless(<iceandfire:sapphire_gem>, [<biomesoplenty:gem:6>]);
 recipes.addShapeless(<biomesoplenty:gem:6>, [<pixelmon:sapphire>]);
+recipes.addShapeless(<pixelmon:ruby>, [<biomesoplenty:gem:1>]);
+recipes.addShapeless(<biomesoplenty:gem:1>, [<pixelmon:ruby>]);
