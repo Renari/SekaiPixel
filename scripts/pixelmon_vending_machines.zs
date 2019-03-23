@@ -1,0 +1,25 @@
+recipes.remove(<pixelmon:blue_vending_machine>);
+recipes.remove(<pixelmon:green_vending_machine>);
+recipes.remove(<pixelmon:orange_vending_machine>);
+recipes.remove(<pixelmon:pink_vending_machine>);
+recipes.remove(<pixelmon:red_vending_machine>);
+recipes.remove(<pixelmon:yellow_vending_machine>);
+recipes.remove(<pixelmon:brown_vending_machine>);
+recipes.remove(<pixelmon:white_vending_machine>);
+recipes.remove(<pixelmon:gray_vending_machine>);
+recipes.remove(<pixelmon:black_vending_machine>);
+recipes.remove(<pixelmon:cyan_vending_machine>);
+recipes.remove(<pixelmon:purple_vending_machine>);
+
+recipes.addShaped(<pixelmon:blue_vending_machine>, [[<ore:plateIron>, <minecraft:glass_pane>, <ore:plateIron>], [<pixelmon:fresh_water>, <pixelmon:soda_pop>, <pixelmon:lemonade>], [<ore:plateIron>, <minecraft:dye:4>, <minecraft:redstone>]]);
+recipes.addShaped(<pixelmon:green_vending_machine>, [[<ore:plateIron>, <minecraft:glass_pane>, <ore:plateIron>], [<pixelmon:fresh_water>, <pixelmon:soda_pop>, <pixelmon:lemonade>], [<ore:plateIron>, <minecraft:dye:2>, <minecraft:redstone>]]);
+recipes.addShaped(<pixelmon:orange_vending_machine>, [[<ore:plateIron>, <minecraft:glass_pane>, <ore:plateIron>], [<pixelmon:fresh_water>, <pixelmon:soda_pop>, <pixelmon:lemonade>], [<ore:plateIron>, <minecraft:dye:14>, <minecraft:redstone>]]);
+recipes.addShaped(<pixelmon:pink_vending_machine>, [[<ore:plateIron>, <minecraft:glass_pane>, <ore:plateIron>], [<pixelmon:fresh_water>, <pixelmon:soda_pop>, <pixelmon:lemonade>], [<ore:plateIron>, <minecraft:dye:9>, <minecraft:redstone>]]);
+recipes.addShaped(<pixelmon:red_vending_machine>, [[<ore:plateIron>, <minecraft:glass_pane>, <ore:plateIron>], [<pixelmon:fresh_water>, <pixelmon:soda_pop>, <pixelmon:lemonade>], [<ore:plateIron>, <minecraft:dye:1>, <minecraft:redstone>]]);
+recipes.addShaped(<pixelmon:yellow_vending_machine>, [[<ore:plateIron>, <minecraft:glass_pane>, <ore:plateIron>], [<pixelmon:fresh_water>, <pixelmon:soda_pop>, <pixelmon:lemonade>], [<ore:plateIron>, <minecraft:dye:11>, <minecraft:redstone>]]);
+recipes.addShaped(<pixelmon:brown_vending_machine>, [[<ore:plateIron>, <minecraft:glass_pane>, <ore:plateIron>], [<pixelmon:fresh_water>, <pixelmon:soda_pop>, <pixelmon:lemonade>], [<ore:plateIron>, <minecraft:dye:3>, <minecraft:redstone>]]);
+recipes.addShaped(<pixelmon:white_vending_machine>, [[<ore:plateIron>, <minecraft:glass_pane>, <ore:plateIron>], [<pixelmon:fresh_water>, <pixelmon:soda_pop>, <pixelmon:lemonade>], [<ore:plateIron>, <minecraft:dye:15>, <minecraft:redstone>]]);
+recipes.addShaped(<pixelmon:gray_vending_machine>, [[<ore:plateIron>, <minecraft:glass_pane>, <ore:plateIron>], [<pixelmon:fresh_water>, <pixelmon:soda_pop>, <pixelmon:lemonade>], [<ore:plateIron>, <minecraft:dye:8>, <minecraft:redstone>]]);
+recipes.addShaped(<pixelmon:black_vending_machine>, [[<ore:plateIron>, <minecraft:glass_pane>, <ore:plateIron>], [<pixelmon:fresh_water>, <pixelmon:soda_pop>, <pixelmon:lemonade>], [<ore:plateIron>, <minecraft:dye>, <minecraft:redstone>]]);
+recipes.addShaped(<pixelmon:cyan_vending_machine>, [[<ore:plateIron>, <minecraft:glass_pane>, <ore:plateIron>], [<pixelmon:fresh_water>, <pixelmon:soda_pop>, <pixelmon:lemonade>], [<ore:plateIron>, <minecraft:dye:6>, <minecraft:redstone>]]);
+recipes.addShaped(<pixelmon:purple_vending_machine>, [[<ore:plateIron>, <minecraft:glass_pane>, <ore:plateIron>], [<pixelmon:fresh_water>, <pixelmon:soda_pop>, <pixelmon:lemonade>], [<ore:plateIron>, <minecraft:dye:5>, <minecraft:redstone>]]);
