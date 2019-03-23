@@ -14,6 +14,11 @@
         "keeploaded": false,
         "worldprovider": "WorldProviderSurfaceJED"
       },
+      "jed": {
+        "CanRespawnHere": false,
+        "RespawnDimension": 0,
+        "CanSleepHere": "deny"
+      },
       "worldinfo_onetime": {
         "generatorName": "BIOMESOP",
         "generatorOptions": "{\"useDungeons\":false,\"useStrongholds\":false,\"useMineShafts\":false,\"useTemples\":false,\"useMonuments\":false}",
@@ -35,6 +40,11 @@
         "keeploaded": false,
         "worldprovider": "WorldProviderHellJED"
       },
+      "jed": {
+        "CanRespawnHere": false,
+        "RespawnDimension": 0,
+        "CanSleepHere": "bed_explodes"
+      },
       "worldinfo_onetime": {
         "generatorName": "BIOMESOP",
         "generatorOptions": "{\"useDungeons\":false,\"useStrongholds\":false,\"useMineShafts\":false,\"useTemples\":false,\"useMonuments\":false}",
@@ -55,6 +65,13 @@
         "suffix": "_dim4",
         "keeploaded": false,
         "worldprovider": "WorldProviderEndJED"
+      },
+      "jed": {
+        "CanRespawnHere": false,
+        "RespawnDimension": 0,
+        "CanSleepHere": "bed_explodes",
+        "DisableEnderDragon": true,
+        "DisableEndSpikes": true
       },
       "worldinfo_onetime": {
         "generatorName": "BIOMESOP",
