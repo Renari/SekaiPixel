@@ -12,4 +12,4 @@ crusher.addRecipe(<pixelmon:silicon_ore>, <pixelmon:silicon> * 2);
 manufactory.addRecipe([<pixelmon:silicon_ore>, <pixelmon:silicon>]);
 
 recipes.remove(<pixelmon:mower>);
-recipes.addShaped("pixelmon:mower", <pixelmon:mower>, [[<pixelmon:aluminium_ingot>, null, null], [<minecraft:hopper>, <pixelmon:aluminium_ingot>, <pixelmon:aluminium_ingot>], [<ore:itemSilicon>, <minecraft:shears>, <ore:itemSilicon>]]);
+recipes.addShaped(<pixelmon:mower>, [[<pixelmon:aluminium_ingot>, null, null], [<minecraft:hopper>, <pixelmon:aluminium_ingot>, <pixelmon:aluminium_ingot>], [<ore:itemSilicon>, <minecraft:shears>, <ore:itemSilicon>]]);
