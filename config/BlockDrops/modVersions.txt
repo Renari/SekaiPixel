@@ -76,6 +76,7 @@
   "jei": "4.15.0.269",
   "chunkpregenerator": "2.1",
   "bibliocraft": "2.4.5",
+  "mekanism": "1.12.2-1.1.0",
   "ivtoolkit": "1.3.3-1.12",
   "bdlib": "1.14.3.12",
   "colytra": "1.1.0.4",
