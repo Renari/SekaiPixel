@@ -280,6 +280,23 @@ Spawning {
     bossSpawnChance=0.3
     # Average number of ticks before spawning a boss Pokémon
     bossSpawnTicks=10000
+    # Pokemon which can transform to Ditto.
+    canTransformToDittoOnCatch=[
+        Pidgey,
+        Ratatta,
+        Gastly,
+        Zubat,
+        Mankey,
+        Yanma,
+        Hoothoot,
+        Sentret,
+        Zigzagoon,
+        Gulpin,
+        Whismur,
+        Taillow,
+        Remoraid,
+        Starly
+    ]
     # Forces wild Pokémon to despawn after a battle.
     despawnOnFleeOrLoss=false
     # Displays server-wide announcement 'A Legendary has spawned in <name> biome' when a Legendary spawns.
@@ -344,6 +361,8 @@ Spawning {
     spawnUltraSpaceNetherForts=true
     # The maximum number of spawns in a single spawn cycle for a single player. Lower for slower spawning and better performance.
     spawnsPerPass=2
+    # Chance for a wild Pokemon to turn into a Ditto on capture.
+    transformToDittoOnCatch=5.0E-5
     # Modifies the rarity of bosses in the Ultra Space Dimension (bossRate * ultraSpaceBossModifier).
     ultraSpaceBossModifier=0.5
     # Modifies the rarity of hidden abilities in the Ultra Space Dimension (hiddenAbilitySpawnRate * ultraSpaceHiddenAbilityModifier).
