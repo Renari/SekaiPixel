@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+  <recipe name="Spawner, Disabled" required="false">
+    <spawning>
+      <entity name="pixelmon:pixelmon" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="pixelmon:npc_chatting" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="pixelmon:npc_relearner" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="pixelmon:npc_tutor" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="pixelmon:npc_nursejoy" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="pixelmon:npc_shopkeeper" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="pixelmon:breeding" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="pixelmon:npc_trainer" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="pixelmon:npc_trader" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="pixelmon:statue" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="iceandfire:firedragon" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="iceandfire:icedragon" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="iceandfire:dragonegg" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="iceandfire:hippogryph" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="iceandfire:stonestatue" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="iceandfire:gorgon" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="iceandfire:if_pixie" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="iceandfire:cyclops" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="iceandfire:myrmex_royal" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="iceandfire:myrmex_queen" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="iceandfire:myrmex_egg" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="iceandfire:amphithere" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="iceandfire:seaserpent" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="iceandfire:siren" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="iceandfire:hippocampus" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="iceandfire:deathworm" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="iceandfire:if_cockatrice" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="iceandfire:stymphalianbird" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="iceandfire:if_troll" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="iceandfire:myrmex_worker" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="iceandfire:myrmex_soldier" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="iceandfire:myrmex_sentinel" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="thaumcraft:cultistportalgreater" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="thaumcraft:pech" costMultiplier="1.0" disabled="true" soulvial="false"/>
+      <entity name="mekanism:robit" costMultiplier="1.0" disabled="true" soulvial="false"/>
+    </spawning>
+  </recipe>
+</enderio:recipes>
