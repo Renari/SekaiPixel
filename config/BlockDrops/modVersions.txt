@@ -36,6 +36,7 @@
   "architecturecraft": "@VERSION@",
   "stackie": "1.6.0.48",
   "dungeons2": "1.7.0",
+  "superiorshields": "1.12.2-1.0.2",
   "unidict": "1.12.2-2.9.2",
   "crafttweakerjei": "2.0.2",
   "enderiomachines": "5.0.40",
