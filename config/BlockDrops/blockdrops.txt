@@ -21388,5 +21388,20 @@
     "1pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
     "2pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
     "3pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}"
+  },
+  {
+    "name": "cyclicmagic:peat_baked",
+    "meta": 0,
+    "length": 1,
+    "name0": "cyclicmagic:peat_fuel",
+    "meta0": 0,
+    "0chance0": 150.625,
+    "1chance0": 150.27501,
+    "2chance0": 150.975,
+    "3chance0": 150.4,
+    "0pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
+    "1pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
+    "2pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
+    "3pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}"
   }
 ]
