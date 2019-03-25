@@ -90,7 +90,7 @@ recipes.addShapeless(<pixelmon:sapphire>, [<iceandfire:sapphire_gem>]);
 recipes.addShapeless(<iceandfire:sapphire_gem>, [<biomesoplenty:gem:6>]);
 recipes.addShapeless(<biomesoplenty:gem:6>, [<pixelmon:sapphire>]);
 recipes.addShapeless(<pixelmon:ruby>, [<biomesoplenty:gem:1>]);
-recipes.addShapeless(<biomesoplenty:gem:1>, [<pixelmon:ruby>]);<ore:dyeWhite>
+recipes.addShapeless(<biomesoplenty:gem:1>, [<pixelmon:ruby>]);
 recipes.addShaped(<randomthings:goldencompass>, [[null, <ore:ingotGold>, null], [<ore:ingotGold>, <bibliocraft:compass>, <ore:ingotGold>], [null, <ore:ingotGold>, null]]);
 recipes.addShaped(<randomthings:stainedbrick>, [[null, <minecraft:brick_block>, null], [<minecraft:brick_block>, <ore:dyeWhite>, <minecraft:brick_block>], [null, <minecraft:brick_block>, null]]);
 recipes.addShaped(<randomthings:stainedbrick:1>, [[null, <minecraft:brick_block>, null], [<minecraft:brick_block>, <ore:dyeOrange>, <minecraft:brick_block>], [null, <minecraft:brick_block>, null]]);
