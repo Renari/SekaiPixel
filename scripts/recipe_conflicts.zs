@@ -27,7 +27,7 @@ recipes.remove(<biomesoplenty:plant_1:5>);
 recipes.remove(<biomesoplenty:bamboo>);
 recipes.remove(<rustic:crop_stake>);
 recipes.remove(<rustic:iron_lattice> * 16);
-recipes.removeShaped("randomthings:goldencompass", <randomthings:goldencompass>, [[null, <ore:ingotGold>, null], [<ore:ingotGold>, <minecraft:compass>, <ore:ingotGold>], [null, <ore:ingotGold>, null]]);
+recipes.removeShaped(<randomthings:goldencompass>, [[null, <ore:ingotGold>, null], [<ore:ingotGold>, <minecraft:compass>, <ore:ingotGold>], [null, <ore:ingotGold>, null]]);
 recipes.remove(<randomthings:stainedbrick>);
 recipes.remove(<randomthings:stainedbrick:1>);
 recipes.remove(<randomthings:stainedbrick:2>);
