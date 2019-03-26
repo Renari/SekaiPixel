@@ -125,6 +125,7 @@
   "minecraft": "1.12.2",
   "tconstruct": "1.12.2-2.12.0.115",
   "rockycore": "0.4.1",
+  "tcomplement": "${version}",
   "theoneprobe": "1.4.28",
   "mousetweaks": "2.10",
   "immersiveengineering": "0.12-89",
