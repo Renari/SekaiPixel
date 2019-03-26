@@ -46,6 +46,9 @@ recipes.remove(<randomthings:stainedbrick:14>);
 recipes.remove(<randomthings:stainedbrick:15>);
 recipes.remove(<randomthings:blockofsticks>);
 recipes.remove(<randomthings:soundbox>);
+recipes.removeShaped(<tconstruct:slime_boots>, [[<ore:slimeball>, null, <ore:slimeball>], [<ore:blockSlimeCongealed>, null, <ore:blockSlimeCongealed>]]);
+recipes.removeShaped(<tconstruct:slimesling>, [[<minecraft:string>, <ore:blockSlimeCongealed>, <minecraft:string>], [<ore:slimeball>, null, <ore:slimeball>], [null, <ore:slimeball>, null]]);
+recipes.remove(<pixelmon:wooden_flooring>);
 
 
 //#Add
@@ -109,4 +112,4 @@ recipes.addShaped(<randomthings:stainedbrick:13>, [[null, <minecraft:brick_block
 recipes.addShaped(<randomthings:stainedbrick:14>, [[null, <minecraft:brick_block>, null], [<minecraft:brick_block>, <ore:dyeRed>, <minecraft:brick_block>], [null, <minecraft:brick_block>, null]]);
 recipes.addShaped(<randomthings:stainedbrick:15>, [[null, <minecraft:brick_block>, null], [<minecraft:brick_block>, <ore:dyeBlack>, <minecraft:brick_block>], [null, <minecraft:brick_block>, null]]);
 recipes.addShaped(<randomthings:blockofsticks> * 10, [[<minecraft:stick>, null, <minecraft:stick>],[null, <minecraft:stick>, null], [<minecraft:stick>, null, <minecraft:stick>]]);
-recipes.addShaped(<randomthings:soundbox>, [[<rustic:painted_wood_blue>, <rustic:painted_wood_blue>, <rustic:painted_wood_blue>],[<rustic:painted_wood_blue>, <minecraft:redstone>, <rustic:painted_wood_blue>], [<rustic:painted_wood_blue>, <rustic:painted_wood_blue>, <rustic:painted_wood_blue>]]);
+recipes.addShaped(<randomthings:soundbox>, [[<rustic:painted_wood_blue>, <rustic:painted_wood_blue>, <rustic:painted_wood_blue>],[<rustic:painted_wood_blue>, <minecraft:redstone_torch>, <rustic:painted_wood_blue>], [<rustic:painted_wood_blue>, <rustic:painted_wood_blue>, <rustic:painted_wood_blue>]]);
