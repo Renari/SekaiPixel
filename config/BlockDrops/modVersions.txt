@@ -109,6 +109,7 @@
   "hungerinpeace": "1.0.0",
   "villagermarket": "1.0.1",
   "iceandfire": "1.7.0",
+  "moartinkers": "0.6.0",
   "randomportals": "1.12.2-1.7.0.1",
   "crafttweaker": "4.1.15",
   "nutrition": "4.3.0",
