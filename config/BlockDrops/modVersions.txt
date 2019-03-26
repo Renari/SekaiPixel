@@ -99,6 +99,7 @@
   "naturescompass": "1.5.1",
   "endertweaker": "1.1.4",
   "enderiointegrationticlate": "5.0.40",
+  "conarm": "1.2.3",
   "farmingforblockheads": "3.1.26",
   "inventorytweaks": "1.64+dev.146.2180b27",
   "foamfixcore": "7.7.4",
