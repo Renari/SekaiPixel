@@ -94,6 +94,7 @@
   "colytra": "1.1.0.4",
   "tcinventoryscan": "2.0.10",
   "redstonepaste": "1.7.5",
+  "tinkeredhegemony": "@VERSION@",
   "mcp": "9.42",
   "diethopper": "1.1",
   "journeymap": "1.12.2-5.5.4",
