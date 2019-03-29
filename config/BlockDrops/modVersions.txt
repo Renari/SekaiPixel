@@ -37,6 +37,7 @@
   "mysticallib": "1.12.2-1.1.1",
   "enderioconduits": "5.0.40",
   "architecturecraft": "@VERSION@",
+  "engineeredgolems": "1.0",
   "stackie": "1.6.0.48",
   "dungeons2": "1.7.0",
   "superiorshields": "1.12.2-1.0.2",
