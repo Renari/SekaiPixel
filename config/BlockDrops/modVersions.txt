@@ -162,6 +162,7 @@
   "appliedenergistics2": "rv6-stable-6",
   "nuclearcraft": "2.13e",
   "endertweaker": "1.1.4",
+  "nex": "2.1.6.7",
   "jeid": "1.0.2-26",
   "foamfixcore": "7.7.4",
   "villagermarket": "1.0.1",
