@@ -53,15 +53,9 @@ recipes.removeShaped(<tconstruct:slimesling>, [[<minecraft:string>, <ore:blockSl
 recipes.remove(<pixelmon:wooden_flooring>);
 recipes.removeShaped(<aoa3:cup>, [[null, null, null],[<minecraft:glass>, null, <minecraft:glass>], [null, <minecraft:glass>, null]]);
 recipes.remove(<quark:red_nether_brick_slab>);
-recipes.remove(<nex:wall_vanilla:1>);
-recipes.remove(<nex:wall_vanilla>);
 recipes.remove(<quark:red_nether_brick_stairs>);
 recipes.remove(<mekanism:basicblock:3>);
 JEI.hide(<tconstruct:stone_stick>);
-JEI.hide(<quark:red_nether_brick_slab>);
-JEI.hide(<nex:wall_vanilla:1>);
-JEI.hide(<nex:wall_vanilla>);
-JEI.hide(<quark:red_nether_brick_stairs>);
 JEI.hide(<mekanism:basicblock:3>);
 JEI.hide(<tconstruct:stone_stick>);
 
