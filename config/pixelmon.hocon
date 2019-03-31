@@ -383,8 +383,32 @@ Starters {
     level=5
     # Shiny starters.
     shiny=false
+    # List of starters, up to a maximum of 21. For Alolans, add "1" at the end of the name. (example: "Vulpix1")
+    starterList=[
+        Honedge,
+        Squirtle,
+        Charmander,
+        Snorunt,
+        Onix,
+        Cyndaquil,
+        Flabébé,
+        Mudkip,
+        Torchic,
+        Turtwig,
+        Piplup,
+        Beldum,
+        Eevee,
+        Oshawott,
+        Tepig,
+        Chespin,
+        Pancham,
+        Fennekin,
+        Rowlet,
+        Popplio,
+        Litten
+    ]
     # pixelmon.config.useCustomStarters.comment
-    useCustomStarters=false
+    useCustomStarters=true
 }
 Storage {
     # The interval in seconds that the async saver will save all queued data to disk.
