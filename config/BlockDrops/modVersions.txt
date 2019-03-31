@@ -43,6 +43,7 @@
   "gottschcore": "1.7.0",
   "projectred-integration": "4.9.1.92",
   "enderiointegrationtic": "5.0.40",
+  "naturesaura": "r14",
   "forgemultipartcbe": "2.6.1.81",
   "codechickenlib": "3.2.2.353",
   "prettybeaches": "1.0.4",
