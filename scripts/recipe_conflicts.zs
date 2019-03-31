@@ -1,3 +1,5 @@
+import mods.jei.JEI;
+
 recipes.remove(<rustic:crop_stake>);
 recipes.remove(<rustic:iron_lattice> * 16);
 recipes.remove(<rustic:painted_wood_black>);
@@ -49,7 +51,19 @@ recipes.remove(<randomthings:soundbox>);
 recipes.removeShaped(<tconstruct:slime_boots>, [[<ore:slimeball>, null, <ore:slimeball>], [<ore:blockSlimeCongealed>, null, <ore:blockSlimeCongealed>]]);
 recipes.removeShaped(<tconstruct:slimesling>, [[<minecraft:string>, <ore:blockSlimeCongealed>, <minecraft:string>], [<ore:slimeball>, null, <ore:slimeball>], [null, <ore:slimeball>, null]]);
 recipes.remove(<pixelmon:wooden_flooring>);
-
+recipes.removeShaped(<aoa3:cup>, [[null, null, null],[<minecraft:glass>, null, <minecraft:glass>], [null, <minecraft:glass>, null]]);
+recipes.remove(<quark:red_nether_brick_slab>);
+recipes.remove(<nex:wall_vanilla:1>);
+recipes.remove(<nex:wall_vanilla>);
+recipes.remove(<quark:red_nether_brick_stairs>);
+recipes.remove(<mekanism:basicblock:3>);
+JEI.hide(<tconstruct:stone_stick>);
+JEI.hide(<quark:red_nether_brick_slab>);
+JEI.hide(<nex:wall_vanilla:1>);
+JEI.hide(<nex:wall_vanilla>);
+JEI.hide(<quark:red_nether_brick_stairs>);
+JEI.hide(<mekanism:basicblock:3>);
+JEI.hide(<tconstruct:stone_stick>);
 
 //#Add
 recipes.addShaped(<rustic:crop_stake>, [[<ore:slabWood>], [<ore:slabWood>], [<ore:slabWood>]]);
@@ -113,3 +127,4 @@ recipes.addShaped(<randomthings:stainedbrick:14>, [[null, <minecraft:brick_block
 recipes.addShaped(<randomthings:stainedbrick:15>, [[null, <minecraft:brick_block>, null], [<minecraft:brick_block>, <ore:dyeBlack>, <minecraft:brick_block>], [null, <minecraft:brick_block>, null]]);
 recipes.addShaped(<randomthings:blockofsticks> * 10, [[<minecraft:stick>, null, <minecraft:stick>],[null, <minecraft:stick>, null], [<minecraft:stick>, null, <minecraft:stick>]]);
 recipes.addShaped(<randomthings:soundbox>, [[<rustic:painted_wood_blue>, <rustic:painted_wood_blue>, <rustic:painted_wood_blue>],[<rustic:painted_wood_blue>, <minecraft:redstone_torch>, <rustic:painted_wood_blue>], [<rustic:painted_wood_blue>, <rustic:painted_wood_blue>, <rustic:painted_wood_blue>]]);
+recipes.addShaped(<aoa3:cup>, [[null, null, null],[<minecraft:glass>, null, <minecraft:glass>], [null, <minecraft:glass>, null]]);
