@@ -92,6 +92,7 @@
   "jeiintegration": "1.5.1.36",
   "mantle": "1.12-1.3.3.42",
   "loottweaker": "0.0.9",
+  "thebetweenlands": "3.4.6",
   "bhc": "1.2.3",
   "jeivillagers": "1.0",
   "autoreglib": "1.3-26",
