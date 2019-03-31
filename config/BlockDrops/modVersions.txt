@@ -19,6 +19,7 @@
   "llibrary": "1.7.18",
   "secretroomsmod": "5.6.4",
   "darkutils": "1.8.224",
+  "grimoireofgaia": "1.6.9.3",
   "ftblib": "5.4.1.93",
   "enderioconduitsrefinedstorage": "5.0.40",
   "galacticraftplanets": "4.0.2.210",
