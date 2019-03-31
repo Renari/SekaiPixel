@@ -54,6 +54,7 @@
   "ctgui": "1.0.0",
   "OpenEye": "0.8",
   "jee": "1.0.6",
+  "projectintelligence": "1.0.2",
   "supersoundmuffler": "1.0.2.10",
   "aoa3": "3.0.2",
   "jei": "4.15.0.269",
