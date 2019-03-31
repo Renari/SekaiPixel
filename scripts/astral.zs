@@ -1,0 +1,1 @@
+recipes.addShaped(<astralsorcery:blockaltar>, [[<galacticraftcore:basic_block_moon:5>, <galacticraftcore:basic_block_moon:5>, <galacticraftcore:basic_block_moon:5>],[null, <ore:workbench>, null], [<galacticraftcore:basic_block_core:12>, <galacticraftcore:basic_block_core:12>, <galacticraftcore:basic_block_core:12>]]);
