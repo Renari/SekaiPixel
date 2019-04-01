@@ -107,6 +107,7 @@
   "minecraftmultipartcbe": "2.6.1.81",
   "oeintegration": "2.3.4",
   "enderioconduitsopencomputers": "5.0.40",
+  "login_shield": "1.12.2-3-g7c6e7ac",
   "netherendingores": "1.12.2-1.3-hotfix1",
   "torohealthmod": "1.12.2-11",
   "base": "3.12.0",
