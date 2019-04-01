@@ -29,3 +29,11 @@ recipes.addShaped(<teastory:matcha_cookie> * 8, [[<ore:dustWheat>, <teastory:mat
 # cake uses flour
 recipes.removeShaped(<minecraft:cake>, [[<minecraft:milk_bucket>, <minecraft:milk_bucket>, <minecraft:milk_bucket>],[<minecraft:sugar>, <minecraft:egg>, <minecraft:sugar>], [<minecraft:wheat>, <minecraft:wheat>, <minecraft:wheat>]]);
 recipes.addShaped(<minecraft:cake>, [[<minecraft:milk_bucket>, <minecraft:milk_bucket>, <minecraft:milk_bucket>],[<minecraft:sugar>, <minecraft:egg>, <minecraft:sugar>], [<ore:dustWheat>, <ore:dustWheat>, <ore:dustWheat>]]);
+
+# fixes for natura barley
+recipes.removeShaped(<minecraft:bread>, [[<natura:materials>, <natura:materials>, <natura:materials>]]);
+recipes.removeShapeless(<natura:materials:1>, [ <natura:materials>]);
+
+# natura barley in grinder/sag mill
+Grinder.addRecipe(<vanillafoodpantry:flour_portion>, <natura:materials>, 4);
+SagMill.addRecipe([<vanillafoodpantry:flour_portion>, <natura:overworld_seeds>], [1, 0.2], <natura:materials>, "CHANCE_ONLY");
