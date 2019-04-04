@@ -2,7 +2,6 @@
   "blockdrops": "1.4.0",
   "teastory": "3.3.0-B27.205-1.12.2",
   "rusticthaumaturgy": "4.0",
-  "yarrmateys_cutemobmodels": "1.0.16",
   "draconicevolution": "2.3.20",
   "contenttweaker": "1.12.2-4.9.1",
   "craftstudioapi": "1.0.0",
