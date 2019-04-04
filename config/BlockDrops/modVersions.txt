@@ -26,6 +26,7 @@
   "galacticraftplanets": "4.0.2.210",
   "jeresources": "0.8.10.50",
   "mcmultipart": "2.5.3",
+  "acintegration": "1.8.1",
   "mysticallib": "1.12.2-1.1.1",
   "enderioconduits": "5.0.40",
   "engineeredgolems": "1.0",
