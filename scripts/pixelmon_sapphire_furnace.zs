@@ -1,0 +1,1 @@
+furnace.remove(<pixelmon:sapphire>);
