@@ -26455,21 +26455,6 @@
     "3pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}"
   },
   {
-    "name": "cyclicmagic:peat_baked",
-    "meta": 0,
-    "length": 1,
-    "name0": "cyclicmagic:peat_fuel",
-    "meta0": 0,
-    "0chance0": 149.475,
-    "1chance0": 149.25,
-    "2chance0": 149.65,
-    "3chance0": 150.025,
-    "0pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
-    "1pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
-    "2pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
-    "3pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}"
-  },
-  {
     "name": "iceandfire:sapphire_ore",
     "meta": 0,
     "length": 1,
@@ -26633,5 +26618,20 @@
     "1pair0": "{\n  \"left\": 4,\n  \"right\": 4\n}",
     "2pair0": "{\n  \"left\": 4,\n  \"right\": 4\n}",
     "3pair0": "{\n  \"left\": 4,\n  \"right\": 4\n}"
+  },
+  {
+    "name": "cyclicmagic:peat_baked",
+    "meta": 0,
+    "length": 1,
+    "name0": "cyclicmagic:peat_fuel",
+    "meta0": 0,
+    "0chance0": 150.05,
+    "1chance0": 150.0,
+    "2chance0": 149.125,
+    "3chance0": 150.95,
+    "0pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
+    "1pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
+    "2pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
+    "3pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}"
   }
 ]
