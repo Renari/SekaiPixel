@@ -121,6 +121,7 @@
   "astralsorcery": "1.10.12",
   "enderiointegrationforestry": "5.0.43",
   "openmods": "0.12.1",
+  "incontrol": "3.9.6",
   "immersivecables": "1.3.2",
   "plustic": "7.0.5.2",
   "initialinventory": "2.0.2",
