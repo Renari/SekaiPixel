@@ -13,7 +13,6 @@
   "coffeespawner": "1.0.2",
   "neat": "1.4-17",
   "thaumicjei": "1.2.1",
-  "hammercore": "2.0.4.4",
   "ctm": "MC1.12.2-0.3.3.22",
   "reauth": "3.6.0",
   "forgelin": "1.8.2",
