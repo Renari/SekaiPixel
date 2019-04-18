@@ -175,7 +175,6 @@
   "nomoreglowingpots": "1.2",
   "extracells": "2.6.2",
   "ae2wtlib": "1.0.6",
-  "thaumic_arcana": "1.2.0",
   "trashslot": "8.4.6",
   "snad": "1.12.1-1.7.09.16a",
   "chunkpregenerator": "2.1",
